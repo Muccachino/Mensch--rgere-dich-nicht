@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+}
+
+#app {
+  .test {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+  .test2 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+  .test3 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+  .test4 {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+}
