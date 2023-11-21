@@ -1,1 +1,2 @@
-console.log("Hello World 7");
+import "./styles.scss";
+console.log("Hello World 8");
