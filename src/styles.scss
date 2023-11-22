@@ -3,33 +3,18 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: red;
-}
-
 #app {
-  .test {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-  }
-  .test2 {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-  }
-  .test3 {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-  }
-  .test4 {
-    border: 2px solid black;
-    width: 200px;
-    height: 200px;
-    background-color: red;
+  display: grid;
+  width: 900px;
+  height: 900px;
+  grid-template-columns: repeat(11, 1fr);
+  .field {
+    padding: 20%;
+    .circle {
+      width: 50%;
+      height: 50%;
+      border: 1px solid black;
+      border-radius: 500px;
+    }
   }
 }
