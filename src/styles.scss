@@ -5,8 +5,8 @@
 
 #app {
   display: grid;
-  width: 900px;
-  height: 900px;
+  width: 800px;
+  height: 800px;
   grid-template-columns: repeat(11, 1fr);
   .field {
     padding: 20%;
@@ -14,6 +14,63 @@
       width: 50%;
       height: 50%;
       border: 1px solid black;
+      border-radius: 500px;
+    }
+    .dicefield {
+      width: 70%;
+      height: 70%;
+      border: 1px solid black;
+    }
+    .fieldRed {
+      width: 50%;
+      height: 50%;
+      border: 1px solid black;
+      border-radius: 500px;
+      background-color: red;
+    }
+    .fieldBlue {
+      width: 50%;
+      height: 50%;
+      border: 1px solid black;
+      border-radius: 500px;
+      background-color: blue;
+    }
+    .fieldGreen {
+      width: 50%;
+      height: 50%;
+      border: 1px solid black;
+      border-radius: 500px;
+      background-color: green;
+    }
+    .fieldYellow {
+      width: 50%;
+      height: 50%;
+      border: 1px solid black;
+      border-radius: 500px;
+      background-color: yellow;
+    }
+    .endZoneRed {
+      width: 50%;
+      height: 50%;
+      border: 2px solid red;
+      border-radius: 500px;
+    }
+    .endZoneBlue {
+      width: 50%;
+      height: 50%;
+      border: 2px solid blue;
+      border-radius: 500px;
+    }
+    .endZoneGreen {
+      width: 50%;
+      height: 50%;
+      border: 2px solid green;
+      border-radius: 500px;
+    }
+    .endZoneYellow {
+      width: 50%;
+      height: 50%;
+      border: 2px solid yellow;
       border-radius: 500px;
     }
   }
